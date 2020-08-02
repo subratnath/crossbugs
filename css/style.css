@@ -1,0 +1,135 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.extra-div h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/web.jpg);
+    background-repeat: no-repeat;
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+    background-size: 100% 100%;
+    position: relative;
+
+}
+
+
+
+    
+    
+
+
+.header ::before{
+
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #99d40e 0%, #3ccdbb 30%, #16c9f6 100%);
+    opacity: 10%;
+    z-index: -1;
+
+}
+.navbar ::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #99d40e 0%, #3ccdbb 30%, #16c9f6 100%);
+    opacity: 10%;
+    z-index: -1;
+}
+.nav-item a{
+    color: white ;
+    font-weight: bold;
+
+}
+.header-section{
+    width: 100%;
+    height:inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+
+}
+.center-div{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 25%;
+    
+}
+.header-buttons a{
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 0 3px;
+    padding: 12px 35px;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.4;
+    text-align: center;
+}
+.header-buttons a:hover{
+
+    color: #5084d1;
+    background: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(red, green, blue, 0.3);
+
+}
+.nav-item:hover a{
+    color: rgb(0, 255, 34);
+    background:none;
+    text-decoration: none;
+}
+.center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: yellow;
+}
+.header-extradiv{
+    width: 100%;
+    height: 100%;
+    margin: 1% 0;
+    text-align: center;
+
+}
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #99d40e 0%, #3ccdbb 30%, #16c9f6 100%);
+    color: white;
+    text-align: center;
+
+}
+.card{
+    width: 100%;
+    background: linear-gradient(to left, #99d40e 0%, #3ccdbb 30%, #16c9f6 100%);
+}
+    
